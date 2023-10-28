@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoptation Page</title>
+    <style>
+         header{
+            color: chocolate;
+            height: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            font-weight: 600;
+         }
+         section{
+            font-size: 40px;
+            margin: 10px 0;
+            text-transform: capitalize;
+            font-weight: 600;
+         }
+         section i{
+            color: maroon;
+            font-weight: 800;
+         }
+         .container{
+            margin: 40px auto;
+            height: 550px;
+            width: 80%;
+            /* border: 3px solid black; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+         .box{
+            width:30%;
+            height: 80%;
+            border: 3px solid black;
+            border-radius: 35px;
+            padding: 10px;
+            /* object-fit: cover; */
+         }
+         img{
+            width: 100%;
+            height: 40%;
+            border-radius: 30px;
+         }
+         /* p::first-letter{
+            font-size: 3em;
+         } */
+    </style>
+</head>
+<body>
+    <header><i>adoptme.com</i></header>
+    <section>Adopt a <i>pet</i> today</section>
+    <div class="container">
+        <div class="box" id="one">
+            <img src="dog.jpeg" alt="">
+            <h2>Meet Jerry</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nesciunt nam hic perferendis porro, dolor voluptate consectetur et. Suscipit, dolore a. Adipisci optio natus ipsa blanditiis, quae odio tempora corrupti velit animi consectetur cupiditate eligendi officiis voluptatem qui? Maiores autem molestiae, minus facere debitis ad ex labore eos error sapiente inventore libero. magnam molestiae saepe odit eligendi, quas corrupti quaerat itaque reprehenderit voluptatem similique quisquam. Rerum reprehenderit quas</p>
+        </div>
+        <div class="box" id="two">
+            <img src="cat.jpeg" alt="">
+            <h2>Meet Tom</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate eveniet itaque fuga. Corporis ipsum ipsa ea minus quaerat voluptate nihil iste illum ullam dolore fugiat ex, veniam repudiandae vitae adipisci, saepe dignissimos, pariatur consequuntur reprehenderit facere? Eaque sunt rerum ut aperiam unde molestias deserunt minima optio deleniti est tempora, odio alias pe ex nulla nobis. Deleniti omnis a, modi dolor similique praesentium quo animi? Obcaecati deserunt est rem quae tempora culpa totam quisquam qui, unde</p>
+        </div>
+    </div>
+</body>
+</html>
